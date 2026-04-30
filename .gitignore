@@ -1,0 +1,66 @@
+# Node.js
+node_modules/
+.next/
+.turbo/
+dist/
+build/
+out/
+.cache/
+*.tsbuildinfo
+.npm
+.eslintcache
+.vercel
+
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+!.env.template
+!.env.sample
+*.pem
+*.key
+credentials.json
+secrets/
+
+# Databases / personal data
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude local
+.claude/local/
+
+# Archives / large binaries
+*.zip
+*.tar.gz
+
